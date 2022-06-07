@@ -8,10 +8,12 @@ RUN sudo apt-get update && \
         software-properties-common \
         yadm \
         zsh && \
-# AWS Corretto JDK 17
-    curl https://apt.corretto.aws/corretto.key | sudo apt-key add -  && \
-    sudo add-apt-repository 'deb https://apt.corretto.aws stable main' && \
-    apt-get install -y --no-install-recommends java-17-amazon-corretto-jdk && \
+# SDKMan
+    apt-get install -y zip unzip && \
+    curl -s "https://get.sdkman.io" | bash && \
+    source "/config/.sdkman/bin/sdkman-init.sh" && \
+    sdk install java 18.0.1-amzn && \
+    sdk install maven 3.8.5 && \
 # Dotnet 
 	curl https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -o packages-microsoft-prod.deb && \
 	dpkg -i packages-microsoft-prod.deb && \

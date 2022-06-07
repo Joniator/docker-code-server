@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-        # Set buildx and QEMU for multi-platform builds
+      # Set buildx and QEMU for multi-platform builds
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         
