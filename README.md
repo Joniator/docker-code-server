@@ -1,6 +1,6 @@
 # joniator/code-server
 
-[![Build status](https://img.shields.io/github/workflow/status/Joniator/docker-images/Docker/code-server)](https://github.com/Joniator/docker-images/actions/workflows/docker-publish.yml) 
+[![Build status](https://img.shields.io/github/workflow/status/Joniator/docker-code-server/Docker)](https://github.com/Joniator/docker-code-server/actions/workflows/docker-publish.yml) 
 [![DockerHub Pulls](https://img.shields.io/docker/pulls/joniator/code-server)](https://hub.docker.com/r/joniator/code-server)
 ![Docker Image Version](https://img.shields.io/docker/v/joniator/code-server)
 
