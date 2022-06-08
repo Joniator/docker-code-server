@@ -17,7 +17,7 @@ For code-server version ([list of tags here](https://github.com/Joniator/docker-
 * GHCR: `ghcr.io/joniator/code-server:vx.x.x` 
 * Docker-Hub: `joniator/code-server:vx.x.x`
 
-## Included:
+# Included:
 
 ### Base Image
 * [linuxserver/code-server](https://github.com/linuxserver/docker-code-server)
