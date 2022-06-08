@@ -13,7 +13,7 @@ Latest:
 * GHCR: `ghcr.io/joniator/code-server:latest` 
 * Docker-Hub: `joniator/code-server:latest`
 
-For code-server version ([list of tags here](https://github.com/Joniator/docker-images/pkgs/container/code-server))
+For code-server version ([list of tags here](https://github.com/Joniator/docker-code-server/pkgs/container/code-server))
 * GHCR: `ghcr.io/joniator/code-server:vx.x.x` 
 * Docker-Hub: `joniator/code-server:vx.x.x`
 
