@@ -11,9 +11,7 @@ RUN sudo apt-get update && \
 # SDKMan
     apt-get install -y zip unzip && \
     curl -s "https://get.sdkman.io" | bash && \
-    source "/config/.sdkman/bin/sdkman-init.sh" && \
-    sdk install java 18.0.1-amzn && \
-    sdk install maven 3.8.5 && \
+    bash -c "source /config/.bashrc; sdk install java 18.0.1-amzn; sdk install maven 3.8.5" && \
 # Dotnet 
 	curl https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -o packages-microsoft-prod.deb && \
 	dpkg -i packages-microsoft-prod.deb && \
