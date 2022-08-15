@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/code-server:4.5.1
+FROM lscr.io/linuxserver/code-server:4.5.2
 
 LABEL maintainer="Jonatha Boeckel <jonnyb@jonnyb.name>"
 
