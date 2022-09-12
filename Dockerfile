@@ -1,6 +1,6 @@
 FROM lscr.io/linuxserver/code-server:4.7.0
 
-LABEL maintainer="Jonatha Boeckel <jonnyb@jonnyb.name>"
+LABEL maintainer="Jonathan Boeckel <jonnyb@jonnyb.name>"
 
 RUN sudo apt-get update && \
 	apt-get install -y --no-install-recommends \
